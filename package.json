@@ -14,7 +14,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,tsx,md,css,json,yaml}": [
+    "**/*.{ts,tsx,md,css,json,yaml}": [
       "pnpm format"
     ]
   },
